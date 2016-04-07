@@ -136,6 +136,7 @@ These rules prevent you from using deprecated angular features.
 
 These rules help you to specify several naming conventions.
 
+ * [component-name](docs/component-name.md) - require and specify a prefix for all component names
  * [controller-name](docs/controller-name.md) - require and specify a prefix for all controller names ([y123](https://github.com/johnpapa/angular-styleguide#style-y123), [y124](https://github.com/johnpapa/angular-styleguide#style-y124))
  * [directive-name](docs/directive-name.md) - require and specify a prefix for all directive names ([y073](https://github.com/johnpapa/angular-styleguide#style-y073), [y126](https://github.com/johnpapa/angular-styleguide#style-y126))
  * [file-name](docs/file-name.md) - require and specify a consistent component name pattern ([y120](https://github.com/johnpapa/angular-styleguide#style-y120), [y121](https://github.com/johnpapa/angular-styleguide#style-y121))
@@ -178,19 +179,6 @@ These rules help you to enforce the usage of angular wrappers.
  * [typecheck-object](docs/typecheck-object.md) - use `angular.isObject` instead of `typeof` comparisons
  * [typecheck-string](docs/typecheck-string.md) - use `angular.isString` instead of `typeof` comparisons
  * [window-service](docs/window-service.md) - use `$window` instead of `window` ([y180](https://github.com/johnpapa/angular-styleguide#style-y180))
-
-
-
-## Environments
-
-This plugin enables the use of environments targeted at AngularJS. These environments define the globals each situation respectively.
-
-```yaml
-env:
-    angular/angular: true
-    angular/mocks: true
-    angular/protractor: true
-```
 
 
 ----
